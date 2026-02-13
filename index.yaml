@@ -1,7 +1,15 @@
 apiVersion: v1
 entries:
-  sample:
-  - name: sample
+  mail:
+  - name: mail
+    version: 1.0.0
+    description: A Helm chart for Kubernetes
+    apiVersion: v2
+    type: application
+    urls:
+      - https://github.com/shailendra-gupta-deel/sample-helm-chart/archive/refs/heads/main.tar.gz
+  zip:
+  - name: zip
     version: 1.0.0
     description: A Helm chart for Kubernetes
     apiVersion: v2
