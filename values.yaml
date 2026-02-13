@@ -1,4 +1,2 @@
 image:
-  repository: busybox
   pullPolicy: IfNotPresent
-  tag: musl

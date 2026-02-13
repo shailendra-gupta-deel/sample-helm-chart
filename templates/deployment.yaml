@@ -30,7 +30,7 @@ spec:
               mountPath: /www
       containers:
         - name: app
-          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          image: busybox:musl
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           command: ["httpd"]
           args: ["-f", "-p", "8080", "-h", "/www"]
